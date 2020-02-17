@@ -1,12 +1,15 @@
 body {
     background-image: url("../images/wallpaper.jpg");
+    display: block;
+    margin: 8px;
   }
 
 header {
     max-width: 960px;
     margin: 0 auto;
     background-color: white;
-    
+    height: 80px;
+    width: 100%
 }
 
 .name {
@@ -14,11 +17,10 @@ header {
     background-color: #4aaaa5;
     font-size: 36px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    float: left;
+    float: left;    
 }
 
-.nav {
-    
+.navbar{
     float: right;
     background-color: white;
     font-size: 24px;
@@ -50,7 +52,6 @@ a:link {
     min-height: 100%;
     margin: 0 auto;
     margin-bottom: -50px;
-    padding 20px;
     text-align: center;
     background-color: white;
     border-color: #dddddd;
@@ -60,12 +61,18 @@ a:link {
     box-sizing: border-box;
     
 }
+.portrait {
+  float: left
+}
 
 .pagehead {
     color: #4aaaa5;
     background-color: white;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 p {
     color: #777777;
@@ -95,7 +102,7 @@ input[type=text], select {
   }
   
   input[type=submit] {
-    width: 100%;
+    width: 25%;
     background-color: #4aaaa5;
     color: white;
     padding: 14px 20px;
